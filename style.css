@@ -15,7 +15,7 @@ body{
 .header nav{
     display: flex;
     justify-content: flex-end;
-    background-color: yellowgreen;
+    
 }
 
 header nav .nav-right-section{
@@ -46,6 +46,8 @@ main .main-input {
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
+   
 
 }
 main .main-buttons {
@@ -62,12 +64,47 @@ main .main-buttons button{
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 10px;
+    margin-top: 50px;
 }
 
 main .main-input input{
     width: 495px;
     height: 40px;
-    
-    margin-bottom: 30px;
+    border-radius: 100px;
+   border: 1px solid  #dfe1e5;
 }
 
+main .offered{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #dfe1e5; 
+   
+}
+
+footer .footer-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .footer-left {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none;
+    padding: auto;
+}
+
+footer .footer-right{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+    padding: auto;
+}
